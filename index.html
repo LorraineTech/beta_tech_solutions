@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Tech Solutions | Portal</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; display: flex; height: 100vh; background-color: #f0f2f5; }
+
+        /* Sidebar Navigation */
+        nav { 
+            width: 280px; 
+            background-color: #2c3e50; 
+            color: white; 
+            display: flex; 
+            flex-direction: column; 
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        nav h2 { font-size: 1.2rem; margin-bottom: 30px; border-bottom: 1px solid #34495e; padding-bottom: 10px; }
+
+        .nav-links { display: flex; flex-direction: column; gap: 10px; }
+
+        .nav-links a { 
+            color: #bdc3c7; 
+            text-decoration: none; 
+            padding: 12px 15px; 
+            border-radius: 4px; 
+            transition: 0.3s; 
+        }
+
+        .nav-links a:hover { background-color: #34495e; color: white; }
+
+        /* Main Content Area */
+        main { flex-grow: 1; padding: 40px; overflow-y: auto; }
+
+        .welcome-card { 
+            background: white; 
+            padding: 40px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 { color: #2c3e50; margin-top: 0; }
+        p { color: #576574; line-height: 1.6; font-size: 1.1rem; }
+
+        .status-badge {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #039be5;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        footer { margin-top: 50px; color: #95a5a6; font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>Beta Tech Solutions</h2>
+        <div class="nav-links">
+            <a href="login.html">User Login</a>
+            <a href="employee-reg.html">Employee Registration</a>
+            <a href="product-reg.html">Product Registration</a>
+            <a href="feedback.html">Customer Feedback</a>
+            <a href="booking.html">Event Booking</a>
+        </div>
+    </nav>
+
+   <main>
+        <div class="welcome-card">
+            <span class="status-badge">Official Staff Portal</span>
+            <h1>Welcome to Beta Tech Solutions</h1>
+            <p>
+                This centralized management system is designed to streamline our internal operations. 
+                Please use the navigation menu on the left to access the specific digital forms required for your department.
+            </p>
+            
+            <h3>Available Services:</h3>
+            <ul>
+                <li><strong>Access Control:</strong> Securely log into your account to manage your profile.</li>
+                <li><strong>Staff Management:</strong> Register new employees and update team records.</li>
+                <li><strong>Inventory & Products:</strong> Add new items to our digital catalog effortlessly.</li>
+                <li><strong>Customer Relations:</strong> Review feedback and manage client interactions.</li>
+                <li><strong>Events:</strong> Schedule and book company events or client meetings.</li>
+            </ul>
+
+            <p>If you encounter any technical issues while using these forms, please contact the IT support team at the Kicukiro District office.</p>
+
+            <footer>
+                &copy; 2026 Beta Tech Solutions Ltd | Kicukiro District, Northern Province
+            </footer>
+        </div>
+    </main>
+
+</body>
+</html>
