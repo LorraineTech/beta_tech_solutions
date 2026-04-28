@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Product Registration Form</h2>
+
+        <form>
+            <label for="productId">Product ID:</label>
+            <input type="text" id="productId" name="productId" placeholder="Enter Product ID" required>
+
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" placeholder="Enter Product Name" required>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="">Select Category</option>
+                <option>Electronics</option>
+                <option>Clothing</option>
+                <option>Food</option>
+                <option>Furniture</option>
+            </select>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" placeholder="Enter Price" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity" required>
+
+            <label for="description">Product Description:</label>
+            <textarea id="description" name="description" placeholder="Enter product details"></textarea>
+
+            <button type="submit">Register Product</button>
+        </form>
+    </div>
+
+</body>
+</html>
